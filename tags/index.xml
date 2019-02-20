@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on geschke.net</title>
+    <link>https://www.geschke.net/tags/</link>
+    <description>Recent content in Tags on geschke.net</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>de-de</language>
+    
+	<atom:link href="https://www.geschke.net/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Impressum</title>
+      <link>https://www.geschke.net/tags/impressum/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.geschke.net/tags/impressum/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Static</title>
+      <link>https://www.geschke.net/tags/static/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.geschke.net/tags/static/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

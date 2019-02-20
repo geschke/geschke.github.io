@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://www.geschke.net/</loc>
+    <lastmod>2018-11-04T21:52:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.geschke.net/feedback/</loc>
+    <lastmod>2018-11-04T21:52:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.geschke.net/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.geschke.net/datenschutz/</loc>
+  </url>
+  
+  <url>
+    <loc>https://www.geschke.net/tags/impressum/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.geschke.net/impressum/</loc>
+  </url>
+  
+  <url>
+    <loc>https://www.geschke.net/tags/static/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.geschke.net/tags/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.geschke.net/vernetzt/</loc>
+  </url>
+  
+</urlset>
