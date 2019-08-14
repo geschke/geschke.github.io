@@ -22,17 +22,7 @@
   </url>
   
   <url>
-    <loc>https://www.geschke.net/tags/impressum/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://www.geschke.net/impressum/</loc>
-  </url>
-  
-  <url>
-    <loc>https://www.geschke.net/tags/static/</loc>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -42,6 +32,16 @@
   
   <url>
     <loc>https://www.geschke.net/vernetzt/</loc>
+  </url>
+  
+  <url>
+    <loc>https://www.geschke.net/tags/impressum/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.geschke.net/tags/static/</loc>
+    <priority>0</priority>
   </url>
   
 </urlset>

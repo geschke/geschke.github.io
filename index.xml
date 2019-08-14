@@ -17,7 +17,7 @@
       <pubDate>Sun, 04 Nov 2018 21:52:00 +0100</pubDate>
       
       <guid>https://www.geschke.net/feedback/</guid>
-      <description>var retoken = &#39;&#39;;   Name *      Email *      Nachricht *       Zurücksetzen &amp;nbsp; Abschicken    --   ( function( $ ) { $(&#39;#feedback-form&#39;).fadeIn(); grecaptcha.ready(function() { grecaptcha.execute(&#39;6LcsR3sUAAAAAIGIqozPzL0NnLAb__FIRpdA-vOC&#39;, {action: &#39;homepage&#39;}).then(function(token) { retoken = token; $(&#39;#g-recaptcha-response&#39;).val(token); }); }); } )( jQuery ); const showAlert = function(message) { const alertBox = &#39;&#39; + message + &#39;&#39;; $(&#39;#messageBox&#39;).</description>
+      <description>var retoken = &#39;&#39;;   Name *      Email *      Nachricht *       Zurücksetzen &amp;nbsp; Abschicken      ( function( $ ) { $(&#39;#feedback-form&#39;).fadeIn(); grecaptcha.ready(function() { grecaptcha.execute(&#39;6LcsR3sUAAAAAIGIqozPzL0NnLAb__FIRpdA-vOC&#39;, {action: &#39;homepage&#39;}).then(function(token) { retoken = token; $(&#39;#g-recaptcha-response&#39;).val(token); }); }); } )( jQuery ); const showAlert = function(message) { const alertBox = &#39;&#39; + message + &#39;&#39;; $(&#39;#messageBox&#39;).</description>
     </item>
     
     <item>
@@ -26,7 +26,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://www.geschke.net/datenschutz/</guid>
-      <description>Diese Datenschutzerklärung klärt Sie über die Art, den Umfang und Zweck der Verarbeitung von personenbezogenen Daten (nachfolgend kurz „Daten“) im Rahmen der Erbringung unserer Leistungen sowie innerhalb unseres Onlineangebotes und der mit ihm verbundenen Webseiten, Funktionen und Inhalte sowie externen Onlinepräsenzen, wie z.B. unser Social Media Profile auf (nachfolgend gemeinsam bezeichnet als „Onlineangebot“). Im Hinblick auf die verwendeten Begrifflichkeiten, wie z.B. „Verarbeitung“ oder „Verantwortlicher“ verweisen wir auf die Definitionen im Art.</description>
+      <description>Einleitung Mit der folgenden Datenschutzerklärung möchten wir Sie darüber aufklären, welche Arten Ihrer personenbezogenen Daten (nachfolgend auch kurz als &#34;Daten“ bezeichnet) wir zu welchen Zwecken und in welchem Umfang verarbeiten. Die Datenschutzerklärung gilt für alle von uns durchgeführten Verarbeitungen personenbezogener Daten, sowohl im Rahmen der Erbringung unserer Leistungen als auch insbesondere auf unseren Webseiten, in mobilen Applikationen sowie innerhalb externer Onlinepräsenzen, wie z.B. unserer Social-Media-Profile (nachfolgend zusammenfassend bezeichnet als &#34;</description>
     </item>
     
     <item>
@@ -35,14 +35,19 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://www.geschke.net/impressum/</guid>
-      <description>Ralf Geschke
-geschke.net
+      <description>Diensteanbieter Ralf Geschke
 Geschwister-Scholl-Str. 16
 50374 Erftstadt
-Kontakt: mailto:// info@geschke.net
+Kontaktmöglichkeiten mailto:// info@geschke.net
 tel:// +49 (0) 2235 953545
 mobil:// +49 (0) 177 52 62 345
-fax:// +49 (0) 2235 953546</description>
+fax:// +49 (0) 2235 953546
+Kontaktformular: https://www.geschke.net/feedback/
+Social Media und andere OnlinepräsenzenDieses Impressum gilt auch für die folgenden Social-Media-Präsenzen und Onlineprofile:
+www.xing.com/profile/Ralf_Geschke
+www.facebook.com/rgeschke
+de.linkedin.com/in/geschke
+Haftungs- und UrheberrechtshinweiseHinweise auf Rechtsverstöße: Sollten Sie innerhalb unseres Internetauftritts Rechtsverstöße bemerken, bitten wir Sie uns auf diese hinzuweisen. Wir werden rechtswidrige Inhalte und Links nach Kenntnisnahme unverzüglich entfernen.</description>
     </item>
     
     <item>
@@ -55,7 +60,7 @@ fax:// +49 (0) 2235 953546</description>
 www.xing.com/profile/Ralf_Geschke      Facebook
 www.facebook.com/rgeschke      Twitter
 @geschke folgen !function (d, s, id) { var js, fjs = d.getElementsByTagName(s)[0], p = /^http:/.test(d.location) ? &#39;http&#39; : &#39;https&#39;; if (!d.getElementById(id)) { js = d.createElement(s); js.id = id; js.src = p + &#39;://platform.twitter.com/widgets.js&#39;; fjs.parentNode.insertBefore(js, fjs); } }(document, &#39;script&#39;, &#39;twitter-wjs&#39;);      LinkedIn
-de.linkedin.com/in/geschke      Google+</description>
+de.linkedin.com/in/geschke      Github</description>
     </item>
     
   </channel>

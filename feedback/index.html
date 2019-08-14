@@ -106,9 +106,6 @@
   </li>
   <span class="mx-2"></span>
   
-
-                  
-
 </ul>
 </nav>
 
@@ -150,7 +147,7 @@ var retoken = '';
                     <span class="required">*</span>
                 </label>
             </div>
-            <div class="form-data " data-grav-field="text" data-grav-disabled="true" data-grav-default="null">
+            <div class="form-data">
                 <div class="form-input-wrapper  ">
                     <input name="formname" value="" type="text" class=" form-control" placeholder="Name"
                         autofocus="autofocus" autocomplete="on" required="required" />
@@ -171,7 +168,7 @@ var retoken = '';
             </div>
             <div class="form-data ">
                 <div class="form-input-wrapper  ">
-                    <input name="formemail" value="" __type="email" class=" form-control" placeholder="E-Mail-Adresse"
+                    <input name="formemail" value="" type="email" class=" form-control" placeholder="E-Mail-Adresse"
                         required="required" />
                 </div>
 
@@ -187,18 +184,14 @@ var retoken = '';
                     <span class="required">*</span>
                 </label>
             </div>
-            <div class="form-data " data-grav-field="textarea" data-grav-disabled="true" data-grav-default="null">
+            <div class="form-data">
                 <div class="form-textarea-wrapper  ">
-                    <textarea rows="4" name="formmessage" class=" form-control" placeholder="Nachricht" required="required"></textarea>
+                    <textarea rows="4" name="formmessage" class=" form-control" placeholder="Nachricht"
+                    required="required"></textarea>
                 </div>
 
             </div>
         </div>
-
-
-      
-
-        <input type="hidden" name="__form-name__" value="contact" />
 
         <div class="buttons">
 
@@ -214,9 +207,7 @@ var retoken = '';
         </div>
 
         <input type="hidden" name="g-recaptcha-response" id="g-recaptcha-response" />
-       <!-- <input type="hidden" name="__unique_form_id__" value="Mg4qeDsFRNZ21HXboQ5U" /> <input type="hidden" name="form-nonce"
-            value="279b5d04cd416c8d1411cdd2d0f2a0f8" />
--->
+      
 
     </form>
 
@@ -246,7 +237,7 @@ const showsuccess = function(message) {
                     $('form').submit(function (event) {
                         event.preventDefault();
                         
-                        if ($("#g-recaptcha-response").val() === '') {
+                        if (false && $("#g-recaptcha-response").val() === '') {
                             showAlert("Die Überprüfung des Captcha ist fehlgeschlagen. Bitte Seite neu laden für einen weiteren Versuch.");
                             
                         } else {
@@ -255,7 +246,9 @@ const showsuccess = function(message) {
 
                             //const url = 'http://gohlis.geschke.net:1414/recaptcha';
                             //const url = 'https://5537741186916234.eu-central-1.fc.aliyuncs.com/2016-08-15/proxy/gnsitetest/feedbackfunc/';
-                            const url = 'https://func.geschke.net/2016-08-15/proxy/gnsitetest/feedbackfunc/';
+                            //const url = 'https://func.geschke.net/2016-08-15/proxy/gnsitetest/feedbackfunc/';
+                            //const url = 'http://thekla.geschke.net:3000/mail';
+                            const url = 'https://nl64e0yegd.execute-api.eu-central-1.amazonaws.com/prod/mail';
                             
                             var requestData = $('#feedback').serialize() /*{
                                 action: "submit",
